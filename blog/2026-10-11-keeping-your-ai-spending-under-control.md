@@ -6,7 +6,7 @@ authors: [DiCompute team]
 tags: [billing, cost-control, settings]
 categories: [product]
 cover: /blog-assets/blog/keeping-your-ai-spending-under-control/banner.webp
-coverAlt: "Duotone editorial illustration: a tilted orbit ring around a solid point, with a second point travelling the ring, picked out in accent; an amber accent on a deep ink field."
+coverAlt: "A bright cyan arrow climbs over a rising bar chart on a dark, out-of-focus office table."
 ---
 
 Surprise AI bills and runaway agent spending made cost guardrails a hot topic in 2026. Usage-based billing is flexible, but it makes some people nervous for a good reason: if the meter runs and nobody is watching, the total can surprise you.

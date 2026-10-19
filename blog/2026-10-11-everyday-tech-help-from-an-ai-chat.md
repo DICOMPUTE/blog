@@ -6,7 +6,7 @@ authors: [DiCompute team]
 tags: [everyday-ai, productivity, how-to]
 categories: [product]
 cover: /blog-assets/blog/everyday-tech-help-from-an-ai-chat/banner.webp
-coverAlt: "Duotone editorial illustration: a tilted orbit ring around a solid point, with a second point travelling the ring, picked out in accent; an amber accent on a deep ink field."
+coverAlt: "Hands type on a laptop while app icons and an AI symbol float above the keyboard in blue light."
 ---
 
 "Vibe coding" and AI help for people who don't program went mainstream in 2025 and 2026. You don't have to be a developer to ask a chat model why your spreadsheet shows an error, what a cryptic message on your screen means, or how to rename two hundred files at once.

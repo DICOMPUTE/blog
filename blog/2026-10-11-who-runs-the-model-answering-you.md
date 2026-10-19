@@ -6,7 +6,7 @@ authors: [DiCompute team]
 tags: [network, explainers, open-compute]
 categories: [product]
 cover: /blog-assets/blog/who-runs-the-model-answering-you/banner.webp
-coverAlt: "Duotone editorial illustration: a tilted orbit ring around a solid point, with a second point travelling the ring, picked out in accent; an amber accent on a deep ink field."
+coverAlt: "A dotted world map arcs over a night city skyline, linked by glowing lines between many points of light."
 ---
 
 Decentralized physical infrastructure for AI compute, often shortened to DePIN, was one of the most hyped ideas of 2026. If you've used DiCompute, a fair question is: when I send a message, whose computer answers it?
