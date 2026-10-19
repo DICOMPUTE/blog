@@ -6,7 +6,7 @@ authors: [DiCompute team]
 tags: [organizations, teams, billing]
 categories: [product]
 cover: /blog-assets/blog/sharing-dicompute-with-your-team/banner.webp
-coverAlt: "Duotone editorial illustration: a tilted orbit ring around a solid point, with a second point travelling the ring, picked out in accent; an amber accent on a deep ink field."
+coverAlt: "A glowing globe floats above a ring of laptops whose screens show colourful charts, joined by light threads."
 ---
 
 Team-wide AI use at small companies picked up through 2026, and with it came a practical problem: who pays, and who decides what people may use? This post is for the person who ends up answering those questions, such as a team lead or a founder, not for an IT department.
