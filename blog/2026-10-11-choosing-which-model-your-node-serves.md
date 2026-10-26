@@ -45,7 +45,7 @@ The fields that matter most for a provider are the context window, the quantizat
 | `qwen2.5-3b-instruct` | q4_k_m | 4,096 | 6 |
 | `ternary-bonsai-2-27b` | PTQ1_0 | 32,768 | 8 |
 
-Note two things. The consumer-facing [/models](/models) page and `/openai/v1/models` list five models, and show a different context window for `qwen2.5-3b-instruct` (1,024 tokens, the window callers get today) from the coordinator's catalog. They answer different questions: what a caller can send, and what an engine can load. And a missing `min_ram_gb` means unknown, not zero. The consumer feeds don't carry `min_ram_gb` for every model, so for fit, rely on the coordinator's catalog or `dico-agent models catalog`.
+Note two things. The consumer-facing [/models](/models) page and `/openai/v1/models` list more models (see [/models](/models) for the current set), and show a different context window for `qwen2.5-3b-instruct` (1,024 tokens, the window callers get today) from the coordinator's catalog. They answer different questions: what a caller can send, and what an engine can load. And a missing `min_ram_gb` means unknown, not zero. The consumer feeds don't carry `min_ram_gb` for every model, so for fit, rely on the coordinator's catalog or `dico-agent models catalog`.
 
 Whether a model is open to callers on the fleet is a separate matter again. Today the fleet path serves one internal account, so never assume that serving a model puts it in front of users.
 

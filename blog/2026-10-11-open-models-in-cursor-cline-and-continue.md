@@ -100,7 +100,7 @@ a 3B model.
 | Cline | yes | XML loop, plausible but unconfirmed |
 | Continue | yes | native tools, or its XML fallback |
 
-On 2026-10-11, `/openai/v1/models` listed five models:
+On 2026-10-11, `/openai/v1/models` listed these chat models (the list has grown since; check [/models](/models) for the current set):
 
 - `qwen2.5-3b-instruct` accepts requests. It has no tools vouch and a
   1,024-token context window.

@@ -102,7 +102,8 @@ hardware. The [/earn](/earn) page tells you to run it, then come back and
 re-run the estimate. Measure watts at the wall with a plug-in meter during the
 same run, and put a real number in the power field too.
 
-There is no fixed device list in the estimator. The page says the real capacity
+The estimator offers a short list of hardware presets, but they are starting
+points, not a device list you are limited to. The page says the real capacity
 model is bring-your-own-engine, so your measured throughput is the input. A
 separate table on the page, "Recognized hardware", lists the capacity class
 each GPU model is recognized for. That table does not feed the estimate, and

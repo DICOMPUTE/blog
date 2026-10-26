@@ -11,7 +11,7 @@ coverAlt: "Duotone editorial illustration: ruled ledger lines crossed by small t
 
 LangChain, LlamaIndex and Pydantic AI were still the default ways to build LLM apps in Python through 2026. All three can talk to any OpenAI-compatible server, which means pointing them at DiCompute is a configuration change, not a new integration. This post gives the three snippets, explains what each parameter does, and is blunt about the two places where a framework will outrun what the platform offers today.
 
-The status, up front. The three [integration pages](/integrations) are labelled "Documented, not yet run": nobody has run a completion through each framework with a real key. Tool calling needs a model with the operator's tools vouch, and the two models that have it are not accepting requests right now. No embedding model is served at all. Plain chat generation is the part that works as documented.
+The status, up front. The three [integration pages](/integrations) are labelled "Documented, not yet run": nobody has run a completion through each framework with a real key. Tool calling needs a model with the operator's tools vouch, and the two models that have it are not accepting requests right now. Embedding models are now listed too (see [Embeddings](#embeddings) below), so a retrieval pipeline can stay on DiCompute. Plain chat generation is the part that works as documented.
 
 ## Why frameworks just need a base URL
 
@@ -99,9 +99,9 @@ curl -sS https://dicompute.ai/openai/v1/models \
 
 If you want structured results from the small model today, ask for JSON in the prompt and validate the reply with your own schema, with a retry on failure. Do not assume a framework agent loop will call tools correctly on a 3B model.
 
-## Embeddings: no embedding model is served yet
+## Embeddings
 
-The embeddings route exists, but no model in the catalogue has `embedding` set to true. LangChain's `OpenAIEmbeddings` and LlamaIndex's embedding classes have nothing to call. A retrieval pipeline needs an embedding model that you host or buy elsewhere, with DiCompute used only for the generation step. The managed knowledge-base feature is built and waiting on an embedding model, so it is not usable today either. Plan for generation only, and revisit when [/models](/models) lists an embedding model.
+When this post was first written (2026-10-11) no model in the catalogue had `embedding` set to true. That has changed: as of 2026-10-25 `/openai/v1/models` lists embedding models such as `bge-small-en-v1.5` and `embeddinggemma-2`. Point LangChain's `OpenAIEmbeddings` or LlamaIndex's `OpenAIEmbedding` at the same base URL and pass one of those ids as the model. Pick the id from the feed at runtime (filter on `capabilities.embedding`), since the list can change; [/models](/models) shows the current set.
 
 ## Testing each with an invalid key
 
