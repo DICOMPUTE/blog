@@ -52,10 +52,12 @@ the source, and the value can change.
 
 Two things to keep in mind when you estimate savings. The
 [estimate endpoint](/docs/billing) prices the synchronous lane only and never
-reflects the batch discount. And every request, batch lines included, has a
-minimum charge of $0.0001 (100 µUSD). For very short lines on a cheap model
-the floor can be most of the cost, so half-price is a rule for real
-workloads, not a promise for each tiny line.
+reflects the batch discount. And every request has a minimum charge of $0.0001
+(100 µUSD), applied to the token-based charge before any discount, as
+[/pricing](/pricing) states: the biller floors first, then applies the batch
+discount. So a very short batch line can settle below the minimum, but for
+short lines on a cheap model the floor still dominates what you pay, so
+half-price is a rule for real workloads, not a promise for each tiny line.
 
 ## Preparing a JSONL input file
 

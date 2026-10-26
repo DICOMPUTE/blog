@@ -32,7 +32,7 @@ Two clarifications, because the words get blurred:
 
 ## The families in DiCompute's catalogue today
 
-DiCompute's catalogue is made up of open-weight models from three families: Qwen, Llama and Ternary Bonsai. At the time of writing, [/models](/models) lists five models, from small to large. For example, `qwen2.5-0.5b-instruct` and `qwen2.5-3b-instruct` are small, while `llama-3.3-70b-instruct` is much larger. The number in a name, like 3b or 70b, is roughly how many billions of weights the model has.
+DiCompute's catalogue is made up of open-weight models from three families: Qwen, Llama and Ternary Bonsai. [/models](/models) lists the current set, from small to large; the count changes as models are added. For example, `qwen2.5-0.5b-instruct` and `qwen2.5-3b-instruct` are small, while `llama-3.3-70b-instruct` is much larger. The number in a name, like 3b or 70b, is roughly how many billions of weights the model has.
 
 This list changes. Models are added, and a model can be listed without accepting requests at a given moment. Treat [/models](/models) as the source of truth, not this post. The [models guide](/docs/models) explains how to read each entry.
 
