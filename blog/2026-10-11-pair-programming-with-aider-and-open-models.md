@@ -77,7 +77,7 @@ curl -sS https://dicompute.ai/openai/v1/models \
   | jq -r '.data[] | select(.metadata.can_accept) | "\(.id)\t\(.context_length)"'
 ```
 
-When I ran this on 2026-10-11, three models had `can_accept: true`.
+When I ran this on 2026-10-11, three chat models had `can_accept: true`; more accept now, so see [/models](/models) for the current list.
 `qwen2.5-3b-instruct` is the one served on the direct engine. It is CPU-served
 and small. Its `context_length` is 1,024 tokens. The other two accepting
 models are fleet-served, and the fleet carries traffic for one internal test

@@ -188,8 +188,9 @@ curl -sS https://dicompute.ai/openai/v1/models \
   | jq -r '.data[] | select(.metadata.can_accept) | .id'
 ```
 
-On 2026-10-11 the catalogue listed five models. Three had
-`metadata.can_accept: true`. Of those, `qwen2.5-3b-instruct` is the one that
+As of 2026-10-11 the catalogue listed five chat models and three had
+`metadata.can_accept: true`; the catalogue has grown since, so see
+[/models](/models). Of those, `qwen2.5-3b-instruct` is the one that
 runs on the direct engine, and its `context_length` is 1,024 tokens, so the
 examples above use short prompts and a small output cap. Check
 [/models](/models) and [/pricing](/pricing) for the current list, since both

@@ -102,6 +102,8 @@ def candidates(models, *, min_context=0, need_tools=False, need_vision=False,
             continue  # opt in to fleet-served models explicitly
         if (m.get("context_length") or 0) < min_context:
             continue  # unknown context counts as too small
+        if caps.get("embedding") or caps.get("rerank"):
+            continue  # not chat models
         if need_tools and not caps.get("tools"):
             continue
         if need_vision and not caps.get("vision"):
