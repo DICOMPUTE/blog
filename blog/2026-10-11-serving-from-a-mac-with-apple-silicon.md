@@ -62,7 +62,7 @@ The [earnings page](/earn) has a "Recognized hardware" table. It maps a verified
 
 Read that table carefully. The hardware docs say `join` prints whether your detected GPU resolves to an entry, and that this shows what your hardware *would* be recognized for once hardware attestation exists. It is not a claim that anything is being enforced or paid against it today. The table can also change, so treat [/earn](/earn) as the source of truth.
 
-The estimator on that page has no Mac preset. You enter your own throughput, which is where `dico-agent benchmark` comes in.
+The estimator on that page has Mac Studio presets as starting points, but your own measured throughput is what counts, which is where `dico-agent benchmark` comes in.
 
 ## Keeping a Mac awake and online
 

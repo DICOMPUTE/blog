@@ -25,7 +25,7 @@ Create keys at [/settings/keys](/settings/keys). A key is shown once, so put it 
 
 ## Scopes: inference versus the rest
 
-A key carries scopes, which say what it is allowed to do, separately from whether it can authenticate. [Authentication](/docs/authentication) lists ten. The ones you will use most:
+A key carries scopes, which say what it is allowed to do, separately from whether it can authenticate. [Authentication](/docs/authentication) lists twelve. The ones you will use most:
 
 | Scope | Grants |
 |---|---|

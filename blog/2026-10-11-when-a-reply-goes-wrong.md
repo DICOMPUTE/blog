@@ -43,7 +43,7 @@ Also keep in mind that small models make mistakes and sometimes miss instruction
 
 ## A model isn't accepting requests
 
-Every model in the catalogue is listed on [/models](/models), but being listed doesn't mean it is taking requests right now. The public feed at `/openai/v1/models` carries a `metadata.can_accept` flag for each model. At the time of writing, two of the five listed models read false, and that can change at any time.
+Every model in the catalogue is listed on [/models](/models), but being listed doesn't mean it is taking requests right now. The public feed at `/openai/v1/models` carries a `metadata.can_accept` flag for each model. On 2026-10-11, two of the five listed models read false; the counts have changed since, and they can change at any time.
 
 If a model fails every time, check that page and the feed, then pick another model that is accepting. Don't keep retrying a model that has been marked as not accepting.
 

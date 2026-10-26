@@ -49,7 +49,7 @@ your prompt takes 1,000, there is almost no room left for an answer.
 ## Why windows vary so much
 
 Models are built differently, so the catalog mixes small and large windows. According to the live `/openai/v1/models` feed
-on the day this was written, the five models listed are:
+on 2026-10-11, the five chat models listed were (the catalog has grown since; see [/models](/models) for the current list):
 
 | Model | Context window (tokens) |
 |---|---|
