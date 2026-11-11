@@ -6,7 +6,7 @@ authors: [DiCompute team]
 tags: [data-export, privacy, account]
 categories: [product]
 cover: /blog-assets/blog/taking-your-data-with-you/banner.webp
-coverAlt: "Duotone editorial illustration: a tilted orbit ring around a solid point, with a second point travelling the ring, picked out in accent; an amber accent on a deep ink field."
+coverAlt: "A warm, glowing world map floats above papers on a desk in a dim room."
 ---
 
 Data portability and deletion rights for AI chat histories drew regulatory and user attention in 2026. The practical question for you is simple: if you've spent months in a chat tool, can you get your history out, and can you remove what you don't want kept?

@@ -6,7 +6,7 @@ authors: [DiCompute team]
 tags: [guides, providers, dico-agent]
 categories: [engineering]
 cover: /blog-assets/blog/running-a-dicompute-provider-node/banner.webp
-coverAlt: "Duotone editorial illustration: a tilted orbit ring around a solid point, with a second point travelling the ring, picked out in accent; a cyan accent on a deep ink field."
+coverAlt: "A wireframe globe stands on a dark desk between a robot arm, a container ship and wind turbines, with server racks behind."
 ---
 
 DiCompute has two sides. People and apps send requests to open AI models, and

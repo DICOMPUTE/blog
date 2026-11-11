@@ -6,7 +6,7 @@ authors: [DiCompute team]
 tags: [education, everyday-ai, students]
 categories: [product]
 cover: /blog-assets/blog/using-ai-as-a-study-partner/banner.webp
-coverAlt: "Duotone editorial illustration: a tilted orbit ring around a solid point, with a second point travelling the ring, picked out in accent; an amber accent on a deep ink field."
+coverAlt: "A team stands in an open office under a large glowing outline of a brain and floating charts."
 ---
 
 AI in education was one of the most debated topics of 2026, and plenty of schools wrote their own AI-use rules. Students are using chat models heavily. Teachers are worried about it. Both reactions make sense.

@@ -81,3 +81,27 @@ a new composition: `bun scripts/banner/generate.ts --slugs <slug>
 --seed-suffix <anything>`. To replace a generated banner with a human
 image, drop in a new `banner.webp` and delete `banner.generated.json` — the
 generator will never touch it again.
+
+## Approved exceptions
+
+These banners are supplied images, not generator output. The owner approved
+them as an exception to this style on DICOMPUTE/AI#21743 (2026-10-19). They do
+not meet "Forbidden" above or the README's 2400×1350 master and licence rule;
+the open gaps are tracked on that issue. Do not use them as a reference for
+new banners, and do not regenerate them (they have no
+`banner.generated.json`).
+
+| Post slug | Supplied image | Source | Licence |
+|---|---|---|---|
+| `who-runs-the-model-answering-you` | img6 | not recorded (supplied 2026-10-19) | not recorded |
+| `running-a-dicompute-provider-node` | img4 | not recorded (supplied 2026-10-19) | not recorded |
+| `keeping-your-ai-spending-under-control` | img3 | not recorded (supplied 2026-10-19) | not recorded |
+| `sharing-dicompute-with-your-team` | img5 | not recorded (supplied 2026-10-19) | not recorded |
+| `everyday-tech-help-from-an-ai-chat` | img2 | not recorded (supplied 2026-10-19) | not recorded |
+| `comparing-ai-models-side-by-side` | img1 | not recorded (supplied 2026-10-19) | not recorded |
+| `using-ai-as-a-study-partner` | img7 | not recorded (supplied 2026-10-19) | not recorded |
+| `taking-your-data-with-you` | img8 | not recorded (supplied 2026-10-19) | not recorded |
+
+Each file is cropped to 16:9, resized to 1200×675 WebP, and darkened toward
+`#060914` on the left and lower band so the lower 40% measures at least
+4.5:1 against `#fff` (5.25:1 to 10.30:1).

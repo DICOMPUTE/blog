@@ -6,7 +6,7 @@ authors: [DiCompute team]
 tags: [models, compare, arena]
 categories: [product]
 cover: /blog-assets/blog/comparing-ai-models-side-by-side/banner.webp
-coverAlt: "Duotone editorial illustration: a tilted orbit ring around a solid point, with a second point travelling the ring, picked out in accent; an amber accent on a deep ink field."
+coverAlt: "Three humanoid robots stand on pedestals in front of a wide holographic board of charts and gauges."
 ---
 
 Blind arenas and public leaderboards became a common way to choose a model in
