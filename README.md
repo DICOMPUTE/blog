@@ -179,3 +179,17 @@ bun scripts/validate.ts        # from the repository root; needs Bun 1.4+
 Anything merged to `main` is public on dicompute.ai within minutes, so
 write access to this repository is write access to a production page. Ask
 before you push straight to `main`; open a pull request instead.
+
+## License
+
+The machinery in this repository (scripts, workflows, this README) is MIT,
+see [LICENSE](LICENSE). Posts and banner images are CC BY 4.0, see
+[LICENSE-CONTENT](LICENSE-CONTENT). Copyright (c) 2026 DICOMPUTE (Anil
+Chinchawale).
+
+## Authors
+
+Posts are credited to the named authors in their front matter. Copyright in
+the machinery and the content is held by DICOMPUTE (Anil Chinchawale). A pull
+request that changes code grants MIT; one that adds or edits a post or banner
+grants CC BY 4.0 on that content.
